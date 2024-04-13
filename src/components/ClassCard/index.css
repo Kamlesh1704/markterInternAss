@@ -1,0 +1,60 @@
+.listItem{
+    list-style-type: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.title-desc{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.practice-button{
+    height: 50px;
+    width: 130px;
+    background-color: black;
+    color: white ;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .listItem{
+        list-style-type: none;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+    }
+    .title-desc{
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+    .practice-button{
+        height: 40px;
+        width: 100px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .listItem{
+        list-style-type: none;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+    }
+    .title-desc{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .practice-button{
+        height: 40px;
+        width: 80px;
+    }
+    .title{
+        font-size: 15px;
+    }
+}

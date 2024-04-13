@@ -1,0 +1,15 @@
+.class-list{
+    margin: 40px;
+}
+.number{
+    color: black;
+    font-weight: bold;
+    padding-left: 700px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+@media  screen and (max-width: 768px) {
+    .number{
+        display: none;
+    }
+}

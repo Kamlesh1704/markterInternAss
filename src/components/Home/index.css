@@ -1,0 +1,126 @@
+
+.slider-img{
+    width: 1500px;
+    max-height: 330px;
+    padding-left: 12px;
+}
+.topper-list{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+}
+.reviews-list{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+.top-students-div{
+    margin-top: 50px; 
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.review-div{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+.address-div{
+    margin-left: 30px;
+}
+.contact-div{
+    margin-right: 30px;
+}
+.contact-button{
+    height: 50px;
+    width: 150px;
+    background-color: burlywood;
+    columns: black;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+@media screen and (max-width: 567px){
+    .slider-img{
+        width: 450px;
+    }
+    .top-students-div{
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .reviews-list{
+        margin-top: 0%;
+        margin-left: 65px;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 200px;
+    }
+    .address-div{
+        margin-left: 10px;
+    }
+    .contact-div{
+        margin-right: 10px;
+    }
+    .contact-button{
+        height: 40px;
+        width: 100px;
+        background-color: burlywood;
+        columns: black;
+        border-radius: 5px;
+        border: 3px solid white;
+    }  
+    .address{
+        font-size: 15px;
+    } 
+    .any{font-size: 15px;}
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .slider-img{
+        width: 650px;
+    } 
+    .footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 250px;
+    }
+    .address-div{
+        margin-left: 15px;
+    }
+    .contact-div{
+        margin-right: 15px;
+    }
+    .contact-button{
+        height: 35px;
+        width: 100px;
+        background-color: burlywood;
+        columns: black;
+        border-radius: 5px;
+        border: 3px solid white;
+    }  
+    .address{
+        font-size: 20px;
+    } 
+    .any{font-size: 20px;}
+}
